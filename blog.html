@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dipak - Developer Portfolio | Blog </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@200;300;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./web-developer.svg" type="image/x-icon">
+<style>
+body {
+  background-color: rgba(5, 35, 82, 0.997);
+  margin: 0;
+  padding:0;
+  /* overflow: hidden; */
+  color:white;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(35, 31, 116, 0.623);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+
+nav ul li a:hover{
+   color: blueviolet;
+}
+
+.left{
+    font-size: 2rem;
+    padding-left: 150px;
+}
+
+  .blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  .blog-card {
+    cursor: pointer;
+    background-color: #0a81e9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .blog-card:hover{
+     background-color: #30c7b8;
+     color: black;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  footer {
+            background-color: rgba(5, 4, 17, 0.08);
+            text-align: center;
+            padding: 1rem;
+        }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="left">Dipak's Portfolio</div>
+   <div class="right">
+    <ul>
+      <li><a href="./">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="./blog.html">Blog</a></li>
+      <li><a href="./contact.html">Contact Us</a></li>
+  </ul>
+   </div> 
+   </nav>
+  <div class="blog-container">
+    <div class="blog-card">
+      <h2>10 Tips for Effective Time Management</h2>
+      <p>Learn how to make the most out of your time.</p>
+    </div>
+    <div class="blog-card">
+      <h2>The Art of Creative Problem Solving</h2>
+      <p>Exploring strategies to tackle complex challenges.</p>
+    </div>
+    <div class="blog-card">
+      <h2>Mastering the Basics of UI/UX Design</h2>
+      <p>Discover key principles for designing user-friendly interfaces.</p>
+    </div>
+    <div class="blog-card">
+      <h2>Introduction to Search Engine Optimization</h2>
+      <p>Unveiling the mysteries of SEO and its importance.</p>
+    </div>
+    <div class="blog-card">
+      <h2>The Impact of Video Content in Marketing</h2>
+      <p>Exploring the rise of video as a powerful marketing tool.</p>
+    </div>
+      <div class="blog-card">
+        <h2>Effective Strategies for Remote Work Productivity</h2>
+        <p>Tips for staying productive and maintaining work-life balance while working remotely.</p>
+      </div>
+      <div class="blog-card">
+        <h2>Creating a Personal Brand Online</h2>
+        <p>Guidance on building a strong personal brand through online presence.</p>
+      </div>
+      <div class="blog-card">
+        <h2>The Psychology of Color in Design</h2>
+        <p>Exploring how color choices impact user perception and emotions in design.</p>
+      </div>
+  </div>
+  <footer>
+    &copy; 2023 My Portfolio. All rights reserved.
+</footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
